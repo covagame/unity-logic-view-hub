@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using R3;
 using Covagame.LVH.Common;
+using Assert = UnityEngine.Assertions.Assert;
 
 #ROOTNAMESPACEBEGIN#
 
@@ -11,11 +12,16 @@ using Covagame.LVH.Common;
 
         public void Dispose() => _disposable.Dispose();
 
-        private void OnDestroy()
+        private void OnDestroy() =>Dispose();
+        
+        private void Reset()
         {
-            Dispose();
+            
         }
-
+        private void Awake()
+        {
+            
+        }
         void IView<TProperty>.Bind(TProperty property)
         {
             // TODO: Implementation Binding

@@ -5,7 +5,7 @@ using Covagame.LVH.Common;
 
 #ROOTNAMESPACEBEGIN#
 
-    public class #SCRIPTNAME# : TProperty
+    public class #SCRIPTNAME# : I#SCRIPTNAME#
     {
         private readonly CompositeDisposable _disposable = new CompositeDisposable();
         public void Dispose() => _disposable.Dispose();
@@ -14,7 +14,7 @@ using Covagame.LVH.Common;
         {
         
         }
-        // TODO: Implementation TProperty
+        // TODO: Implementation I#SCRIPTNAME#
         
     }
 

@@ -24,10 +24,20 @@ flowchart LR
 
 Add this package through the configured Unity scoped registry.
 
+This package uses R3 frame-based observables in Unity. Install `R3.Unity` in the Unity project as `com.cysharp.r3` before using samples or any code that calls `Observable.EveryUpdate()`.
+
 ```json
 {
   "dependencies": {
-    "jp.covagame.logic-view-hub": "0.1.0"
+    "com.cysharp.r3": "https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity#1.3.1"
+  }
+}
+```
+
+```json
+{
+  "dependencies": {
+    "jp.covagame.logic-view-hub": "0.1.1"
   }
 }
 ```
