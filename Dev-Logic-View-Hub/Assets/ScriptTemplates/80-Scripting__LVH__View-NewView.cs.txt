@@ -1,0 +1,26 @@
+using System; 
+using UnityEngine;
+using R3;
+using Covagame.LVH.Common;
+
+#ROOTNAMESPACEBEGIN#
+
+    public class #SCRIPTNAME# : MonoBehaviour, IView<TProperty>
+    {
+        private readonly CompositeDisposable _disposable = new CompositeDisposable();
+
+        public void Dispose() => _disposable.Dispose();
+
+        private void OnDestroy()
+        {
+            Dispose();
+        }
+
+        void IView<TProperty>.Bind(TProperty property)
+        {
+            // TODO: Implementation Binding
+
+        }
+    }
+
+#ROOTNAMESPACEEND#

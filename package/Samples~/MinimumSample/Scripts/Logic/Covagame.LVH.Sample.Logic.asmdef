@@ -1,0 +1,19 @@
+{
+    "name": "Covagame.LVH.Sample.Logic",
+    "rootNamespace": "Covagame.LVH.Sample.Logic",
+    "references": [
+        "GUID:21111a6999c63544180e93e0bec6faac",
+        "GUID:ba20463d104e4e143a1bc70d7ae32dbc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

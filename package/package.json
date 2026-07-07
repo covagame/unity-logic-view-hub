@@ -1,0 +1,22 @@
+{
+  "name": "jp.covagame.logic-view-hub",
+  "displayName": "CovaGame Logic-View-Hub",
+  "version": "0.1.0",
+  "unity": "6000.0",
+  "description": "Architecture Logic-View-Hub package for Unity.",
+  "author": {
+    "name": "covagame"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jp.covagame.common-tool": "0.1.0",
+    "org.nuget.observablecollections.r3": "3.3.4"
+  },
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Sample assets and scenes for CovaGame Logic View Hub.",
+      "path": "Samples~"
+    }
+  ]
+}
