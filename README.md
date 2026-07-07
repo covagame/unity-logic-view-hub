@@ -76,6 +76,16 @@ The important rule is that `Logic` and `View` both depend on the HubProperty int
 
 Open `Dev-Logic-View-Hub` as a Unity project.
 
+This project requires `R3.Unity` for Unity frame-based observables such as `Observable.EveryUpdate()`. The development project declares it in `Dev-Logic-View-Hub/Packages/manifest.json` as:
+
+```json
+{
+  "dependencies": {
+    "com.cysharp.r3": "https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity#1.3.1"
+  }
+}
+```
+
 The package source is placed in `package/`. The Unity project references it through a symbolic link:
 
 ```text

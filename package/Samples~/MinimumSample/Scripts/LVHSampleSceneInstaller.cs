@@ -1,4 +1,3 @@
-using System;
 using Covagame.LVH.Common;
 using Covagame.LVH.Sample.Common;
 using Covagame.LVH.Sample.Logic;
@@ -17,11 +16,16 @@ namespace Covagame.LVH.Sample
             var canvas = FindFirstObjectByType<Canvas>() ?? LVHSampleViewFactory.CreateCanvas();
             var root = LVHSampleViewFactory.CreatePanel(canvas.transform);
 
-            var buttonProperty = new ButtonProperty().AddTo(_disposable);
-            var stateLabelProperty = new LabelProperty().AddTo(_disposable);
-            var swipeDirectionLabelProperty = new LabelProperty().AddTo(_disposable);
-            var holdTimeLabelProperty = new LabelProperty().AddTo(_disposable);
-            var releaseOutsideLabelProperty = new LabelProperty().AddTo(_disposable);
+            var buttonProperty = new ButtonProperty();
+            var stateLabelProperty = new LabelProperty();
+            var swipeDirectionLabelProperty = new LabelProperty();
+            var holdTimeLabelProperty = new LabelProperty();
+            var releaseOutsideLabelProperty = new LabelProperty();
+            buttonProperty.AddTo(_disposable);
+            stateLabelProperty.AddTo(_disposable);
+            swipeDirectionLabelProperty.AddTo(_disposable);
+            holdTimeLabelProperty.AddTo(_disposable);
+            releaseOutsideLabelProperty.AddTo(_disposable);
 
             new ButtonInputViewLogic(
                 buttonProperty,
@@ -29,6 +33,8 @@ namespace Covagame.LVH.Sample
                 swipeDirectionLabelProperty,
                 holdTimeLabelProperty,
                 releaseOutsideLabelProperty).AddTo(_disposable);
+
+            new KeyboardButtonInputLogic(buttonProperty).AddTo(_disposable);
 
             var buttonView = LVHSampleViewFactory.CreateButton(root, "Input Button");
             ((IView<IButtonProperty>)buttonView).Bind(buttonProperty);
