@@ -1,5 +1,7 @@
 # Logic View Hub
 
+Japanese documentation: [doc/README.ja.md](doc/README.ja.md)
+
 Architecture Logic-View-Hub package for Unity.
 
 ## Architecture
