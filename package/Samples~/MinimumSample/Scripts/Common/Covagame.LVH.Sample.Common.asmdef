@@ -1,0 +1,18 @@
+{
+    "name": "Covagame.LVH.Sample.Common",
+    "rootNamespace": "Covagame.LVH.Sample.Common",
+    "references": [
+        "GUID:21111a6999c63544180e93e0bec6faac"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

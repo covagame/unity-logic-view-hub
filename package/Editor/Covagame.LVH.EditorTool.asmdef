@@ -1,0 +1,14 @@
+{
+    "name": "Covagame.LVH.EditorTool",
+    "rootNamespace": "Covagame.LVH.EditorTool",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
