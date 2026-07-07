@@ -1,10 +1,12 @@
 {
-    "name": "Covagame.LVH.Sample.View",
-    "rootNamespace": "Covagame.LVH.Sample.View",
+    "name": "Covagame.LVH.Sample",
+    "rootNamespace": "Covagame.LVH.Sample",
     "references": [
+        "GUID:868c8b3aa5125c8499078cda7f744770",
         "GUID:21111a6999c63544180e93e0bec6faac",
         "GUID:ba20463d104e4e143a1bc70d7ae32dbc",
-        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:bf6edc4d3ba21594587e1b747451d5ca",
+        "GUID:a9fc75dd3a6f8d14aa70373d02e7c8ae",
         "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],

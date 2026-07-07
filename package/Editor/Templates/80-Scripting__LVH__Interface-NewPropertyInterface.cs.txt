@@ -1,0 +1,13 @@
+using System; 
+using UnityEngine;
+using R3;
+using Covagame.LVH.Common;
+
+#ROOTNAMESPACEBEGIN#
+
+    public interface #SCRIPTNAME# : IHubProperty
+    {
+       
+    }
+
+#ROOTNAMESPACEEND#
