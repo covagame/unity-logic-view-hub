@@ -1,7 +1,7 @@
 {
   "name": "jp.covagame.logic-view-hub",
   "displayName": "CovaGame Logic-View-Hub",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "unity": "6000.0",
   "description": "Architecture Logic-View-Hub package for Unity.",
   "author": {

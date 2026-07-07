@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+### Fixed 
+- EditorAssembly supports editor only. 
+
 ## 0.1.1
 
 - Added the minimum sample keyboard input logic.

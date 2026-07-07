@@ -2,7 +2,9 @@
     "name": "Covagame.LVH.EditorTool",
     "rootNamespace": "Covagame.LVH.EditorTool",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
