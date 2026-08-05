@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Logic を Layered Architecture に対応させて分類する場合</title>
+  <desc id="desc">Logic View Hub の Logic を ViewLogic、UsecaseLogic、DomainLogic に任意分類し、Layered Architecture の各層へ対応させた図。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#475467"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#ffffff"/>
+
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" fill="#182230">
+    <rect x="40" y="30" width="1120" height="680" rx="12" fill="#ffffff" stroke="#344054" stroke-width="2"/>
+    <rect x="40" y="30" width="1120" height="82" rx="12" fill="#eef4ff"/>
+    <path d="M40 100H1160" stroke="#344054" stroke-width="2"/>
+    <path d="M390 30V710" stroke="#344054" stroke-width="2"/>
+    <path d="M40 285H1160M40 435H1160M40 585H1160" stroke="#98a2b3" stroke-width="2"/>
+
+    <text x="215" y="80" text-anchor="middle" font-size="25" font-weight="700">Layered Architecture</text>
+    <text x="775" y="80" text-anchor="middle" font-size="25" font-weight="700">Logic-View-Hub の任意分類</text>
+
+    <text x="215" y="200" text-anchor="middle" font-size="25" font-weight="700">UI / Input</text>
+    <text x="215" y="370" text-anchor="middle" font-size="25" font-weight="700">Application</text>
+    <text x="215" y="520" text-anchor="middle" font-size="25" font-weight="700">Domain</text>
+    <text x="215" y="655" text-anchor="middle" font-size="23" font-weight="700">Infrastructure</text>
+
+    <rect x="455" y="125" width="205" height="54" rx="8" fill="#e9f7ef" stroke="#28865b" stroke-width="2"/>
+    <text x="558" y="159" text-anchor="middle" font-size="18" font-weight="700">View / Device Input</text>
+
+    <rect x="700" y="125" width="185" height="54" rx="8" fill="#fff5df" stroke="#b7791f" stroke-width="2"/>
+    <text x="793" y="159" text-anchor="middle" font-size="19" font-weight="700">HubProperty</text>
+
+    <rect x="500" y="326" width="240" height="66" rx="9" fill="#eef4ff" stroke="#3563b8" stroke-width="2"/>
+    <text x="620" y="367" text-anchor="middle" font-size="23" font-weight="700">ViewLogic</text>
+
+    <rect x="840" y="326" width="250" height="66" rx="9" fill="#eef4ff" stroke="#3563b8" stroke-width="2"/>
+    <text x="965" y="367" text-anchor="middle" font-size="23" font-weight="700">UsecaseLogic</text>
+
+    <rect x="670" y="476" width="250" height="66" rx="9" fill="#eef4ff" stroke="#3563b8" stroke-width="2"/>
+    <text x="795" y="517" text-anchor="middle" font-size="23" font-weight="700">DomainLogic</text>
+
+    <rect x="555" y="625" width="480" height="54" rx="8" fill="#f2f4f7" stroke="#667085" stroke-width="2"/>
+    <text x="795" y="659" text-anchor="middle" font-size="19" font-weight="700">Repository / Web API / Unity Input System</text>
+
+    <path d="M660 152H694" stroke="#475467" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M793 180V250H620V319" fill="none" stroke="#475467" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M740 359H833" stroke="#475467" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M965 392V450H795V469" fill="none" stroke="#475467" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+</svg>
